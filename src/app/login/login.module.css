@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 2%;
+  background: var(--background-default-card);
+}
+
+.login {
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.forgot {
+  color: var(--color-white);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .card {
+    padding: 5%;
+  }
+}
